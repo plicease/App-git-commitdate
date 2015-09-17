@@ -11,7 +11,7 @@ package App::git::commitdate {
   use Time::Local qw( timelocal );
   use namespace::autoclean;
 
-  sub main($class, $date, @commit_args) {
+  sub main($class, $date=undef, @commit_args) {
     if(defined $date) {
       if($date =~ /^(?<year>[0-9]{4})-(?<month>[0-9]{1,2})-(?<day>[0-9]{1,2})$/) {
         my $sec  = int rand 60;
