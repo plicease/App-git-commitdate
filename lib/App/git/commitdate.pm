@@ -18,7 +18,7 @@ package App::git::commitdate {
         my $min  = int rand 60;
         my $hour = 7 + int rand 10;
         #say "$hour:$min:$sec";
-        $date = timelocal $sec, $min, $hour, $+{day}, $+{month}, $+{year};
+        $date = timelocal $sec, $min, $hour, $+{day}, $+{month}-1, $+{year};
       } else {
         say STDERR "does not look like a date: $date";
         return 2;
