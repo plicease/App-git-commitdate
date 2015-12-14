@@ -1,10 +1,10 @@
-# App::git::commitdate
+# App::git::commitdate [![Build Status](https://secure.travis-ci.org/plicease/App-git-commitdate.png)](http://travis-ci.org/plicease/App-git-commitdate)
 
 Set the date on a commit
 
 # AUTHOR
 
-Graham Ollis <plicease@cpan.org>
+Graham Ollis &lt;plicease@cpan.org>
 
 # COPYRIGHT AND LICENSE
 

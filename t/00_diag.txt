@@ -1,4 +1,0 @@
-Module::Build
-Test::More
-Time::Local
-namespace::autoclean
